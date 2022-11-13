@@ -35,7 +35,7 @@ button.addEventListener('click', function() {
 
 //& ADDING ENTER  KEY TO CHANGE CHANGE THE COLOR
 
-window.addEventListener('keyup', function(e) {
+window.addEventListener('keydown', function(e) {
 
     const randomColor = makeRandomColor()
 
