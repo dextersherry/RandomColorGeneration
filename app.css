@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    transition: all 500ms;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+button {
+    letter-spacing: 1px;
+    transition: all 1s;
+}
+
+button:hover {
+    letter-spacing: 2px;
+    transition: ease-in 30ms;
+}
